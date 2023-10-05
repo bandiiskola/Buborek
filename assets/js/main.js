@@ -16,6 +16,6 @@ function Letrehoz() {
 
 function Megszuntet(id) {
     document.getElementById(id).remove();
-    var audio=new Audio('assets/audio/pakk.waw')
+    var audio=new Audio('assets/audio/pukk.wav')
     audio.play()
 }
